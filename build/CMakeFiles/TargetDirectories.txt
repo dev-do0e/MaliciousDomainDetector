@@ -1,0 +1,3 @@
+C:/Users/user/Desktop/workspace/MaliciousDomainDetector/build/CMakeFiles/MaliciousDomainDetector.dir
+C:/Users/user/Desktop/workspace/MaliciousDomainDetector/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/user/Desktop/workspace/MaliciousDomainDetector/build/CMakeFiles/ZERO_CHECK.dir
