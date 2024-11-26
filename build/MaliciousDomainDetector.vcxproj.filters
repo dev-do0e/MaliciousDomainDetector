@@ -1,7 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\sqlite3.c">
+    <ClCompile Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\libs\sqlite3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\DomainScanner\DomainScanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\SqlDataFetcher\SqlDataFetcher.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\main.cpp">
@@ -9,7 +15,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\sqlite3.h">
+    <ClInclude Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\libs\sqlite3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\DomainScanner\DomainScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\SqlDataFetcher\SqlDataFetcher.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

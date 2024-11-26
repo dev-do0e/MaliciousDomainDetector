@@ -7,12 +7,14 @@
 int main() {
 
     do {
-        // 실행할 작업
         std::cout << "MaliciousDomainDetector executed at: " << time(nullptr) << std::endl;
 
-        // 60초 대기 (1분)
+        DomainScanner domainScanner;
+        domainScanner.findDomainDifferences();
+
+        // waiting 60sec
         std::this_thread::sleep_for(std::chrono::minutes(1));
-    } while (true);
+    }while (true);
 
     return 0;
 }
