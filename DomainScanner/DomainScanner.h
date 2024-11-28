@@ -16,7 +16,7 @@ class DomainScanner {
 
         void findDomainDifferences();
         
-        void containsKeywordInDns();
+        void containsKeywordInDns(std::string domain);
 
 };
 

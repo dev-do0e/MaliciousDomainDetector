@@ -15,7 +15,7 @@ class SqlDataFetcher {
 
         ~SqlDataFetcher();
 
-        bool fetchDomainRecords(std::vector<std::string> &fqdnsDomains);
+        bool fetchFqdnsNames(std::vector<std::string> &fqdnsDomains);
 
 
 };

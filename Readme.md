@@ -1,17 +1,23 @@
 MaliciousDomainDetector
 
 ========================================
-11월 26일 00시 26분 
+
+11월 26일 00시 26분
 현재 진행 상황
 개발 방향성과 class architecture 설계완료
 
-step 1.
+step 1. 완료
 SQLite에서 데이터 Fetch 구현 완료했고 리눅스에서 빌드 진행해서 1분 마다 Domain 10개 나오는 지 확인하면 됨
 
-step 2. 
+step 2.
 findDomainDifferences 함수 구현
 fqdnsDomains과 checkedDomains 비교 진행해서
 fqdnsDomains에 새롭게 추가된 Domain이 있는지 확인
+
+step 3. 
+containsKeywordInDns 구현
+새롭게 추가된 Domain이 있는 지 확인되었으면 
+containsKeywordInDns에서 Domain에 keyword가 포함되어 있는 지 확인 
 
 ========================================
 
@@ -41,3 +47,7 @@ class 정의
     Keyword와 Lampad-W 정보를 담을 수 있는 json file parsing
 4. RestAPI
     Lampad-W로 보내버리기
+
+SqlDataFetcher Class 구현법
+SqlDataFetcher Class 호출할 때 생성자로 DB 파일 지정해서 먼저 열 수 있도록 해놓음
+DB를 먼저 열어놓는다고 해도 DML Query가 어떤것인지에 따라 아웃풋 폼이 달라지기에 DB에서 필요한 값이 있다면 그때마다 함수를 새로 구현해야함

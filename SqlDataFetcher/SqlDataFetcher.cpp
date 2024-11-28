@@ -16,21 +16,21 @@ SqlDataFetcher::~SqlDataFetcher() {
     }
 }
 
-// 데이터베이스에서 도메인 이름을 가져와 vector에 저장하는 함수
-bool SqlDataFetcher::fetchDomainRecords(std::vector<std::string> &fqdnsDomains) {
+// function that get the domain's from fqdns and saving to vector 
+bool SqlDataFetcher::fetchFqdnsNames(std::vector<std::string> &fqdnsDomains) {
     sqlite3_stmt* stmt;
-    const char* sql = "SELECT name FROM fqdns ORDER BY name ASC;";
+    const char* query = "SELECT name FROM fqdns ORDER BY name ASC;";
 
-    // SQL 쿼리 준비
-    if (sqlite3_prepare_v2(db, sql, -1, &stmt, nullptr) != SQLITE_OK) {
+    // preparing SQL query
+    if (sqlite3_prepare_v2(db, query, -1, &stmt, nullptr) != SQLITE_OK) {
         std::cerr << "Failed to execute query: " << sqlite3_errmsg(db) << std::endl;
         return false;
     }
 
-    // 쿼리 결과를 vector에 저장
+    // saving result of SQL query to vector
     while (sqlite3_step(stmt) == SQLITE_ROW) {
-        const char* domain = reinterpret_cast<const char*>(sqlite3_column_text(stmt, 0));  // 첫 번째 컬럼의 값을 가져옴
-        fqdnsDomains.push_back(domain);  // vector에 도메인 이름 추가
+        const char* domain = reinterpret_cast<const char*>(sqlite3_column_text(stmt, 0));  // get the first result of column
+        fqdnsDomains.push_back(domain);  // add domain to vector
     }
 
     // 리소스 정리
