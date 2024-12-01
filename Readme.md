@@ -9,16 +9,18 @@ MaliciousDomainDetector
 step 1. 완료
 SQLite에서 데이터 Fetch 구현 완료했고 리눅스에서 빌드 진행해서 1분 마다 Domain 10개 나오는 지 확인하면 됨
 
-step 2.
+step 2. 완료
+findKeywordInDomain 구현
+새롭게 추가된 Domain이 있는 지 확인되었으면 
+containsKeywordInDns에서 Domain에 keyword가 포함되어 있는 지 확인 
+
+step 3. 
+중복체크 해야함
 findDomainDifferences 함수 구현
 fqdnsDomains과 checkedDomains 비교 진행해서
 fqdnsDomains에 새롭게 추가된 Domain이 있는지 확인
 
-step 3. 
-containsKeywordInDns 구현
-새롭게 추가된 Domain이 있는 지 확인되었으면 
-containsKeywordInDns에서 Domain에 keyword가 포함되어 있는 지 확인 
-
+step 4. 사진찍어서 저장
 ========================================
 
 목적 : Lampad가 인식한 Domain에서 악성 Domain이 있는 지 체크 및 있다면 Lampad-W API 사용하여 screenshot

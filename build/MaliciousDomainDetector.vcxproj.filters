@@ -4,7 +4,7 @@
     <ClCompile Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\libs\sqlite3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\DomainScanner\DomainScanner.cpp">
+    <ClCompile Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\MaliciousDomainDetector\MaliciousDomainDetector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\SqlDataFetcher\SqlDataFetcher.cpp">
@@ -18,10 +18,13 @@
     <ClInclude Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\libs\sqlite3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\DomainScanner\DomainScanner.h">
+    <ClInclude Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\MaliciousDomainDetector\MaliciousDomainDetector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\SqlDataFetcher\SqlDataFetcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\json.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

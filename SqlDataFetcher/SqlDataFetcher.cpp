@@ -19,7 +19,7 @@ SqlDataFetcher::~SqlDataFetcher() {
 // function that get the domain's from fqdns and saving to vector 
 bool SqlDataFetcher::fetchFqdnsNames(std::vector<std::string> &fqdnsDomains) {
     sqlite3_stmt* stmt;
-    const char* query = "SELECT name FROM fqdns ORDER BY name ASC;";
+    const char* query = "SELECT DISTINCT name FROM fqdns ORDER BY name ASC;";
 
     // preparing SQL query
     if (sqlite3_prepare_v2(db, query, -1, &stmt, nullptr) != SQLITE_OK) {

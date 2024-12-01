@@ -7,9 +7,9 @@ libs/sqlite3.h
 libs/sqlite3.c
 )
 
-set(DomainScanner
-DomainScanner/DomainScanner.h
-DomainScanner/DomainScanner.cpp
+set(MaliciousDomainDetector
+MaliciousDomainDetector/MaliciousDomainDetector.h
+MaliciousDomainDetector/MaliciousDomainDetector.cpp
 )
 
 set(SqlDataFetcher
@@ -24,9 +24,10 @@ set(SQLITE3_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/libs")
 add_executable(MaliciousDomainDetector 
 
 ${SQLite}
-${DomainScanner}
+${MaliciousDomainDetector}
 ${SqlDataFetcher}
 
+json.hpp
 main.cpp
 
 )

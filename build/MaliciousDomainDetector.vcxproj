@@ -334,10 +334,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClInclude Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\libs\sqlite3.h" />
     <ClCompile Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\libs\sqlite3.c" />
-    <ClInclude Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\DomainScanner\DomainScanner.h" />
-    <ClCompile Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\DomainScanner\DomainScanner.cpp" />
+    <ClInclude Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\MaliciousDomainDetector\MaliciousDomainDetector.h" />
+    <ClCompile Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\MaliciousDomainDetector\MaliciousDomainDetector.cpp" />
     <ClInclude Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\SqlDataFetcher\SqlDataFetcher.h" />
     <ClCompile Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\SqlDataFetcher\SqlDataFetcher.cpp" />
+    <ClInclude Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\json.hpp" />
     <ClCompile Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\main.cpp" />
   </ItemGroup>
   <ItemGroup>
