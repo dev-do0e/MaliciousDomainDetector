@@ -3,11 +3,13 @@
 
 #include <iostream>
 #include <vector>
+#include <unordered_set>
 #include <chrono>
 #include <thread>
 #include <fstream>  
 
-#include "../SqlDataFetcher/SqlDataFetcher.h"
+
+#include "../SQLite/Sqlite.h"
 #include "../json.hpp"
 
 using json = nlohmann::json;
@@ -15,16 +17,12 @@ using json = nlohmann::json;
 class MaliciousDomainDetector {
     private :
         std::vector<std::string> fqdnsDomains;
-        std::vector<std::string> checkedDomains;
+        std::unordered_map<std::string, bool> uniqueFqdnsDomains;
 
     public :
         void maliciousDomainDetectorManager();
 
-        bool maliciousDomainDetectorinit();
-
-        bool findKeywordInDomain(std::string domain);
-
-        void findDomainDifferences(std::string domain);
+        bool findDomainsWithKeyword();
 
 };
 

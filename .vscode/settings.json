@@ -74,7 +74,9 @@
         "unordered_map": "cpp",
         "valarray": "cpp",
         "xhash": "cpp",
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "unordered_set": "cpp",
+        "set": "cpp"
     },
     "commentTranslate.source": "Google"
 }

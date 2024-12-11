@@ -1,8 +1,11 @@
-cmake_minimum_required(VERSION 3.30)
+cmake_minimum_required(VERSION 3.29)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(MaliciousDomainDetector)
 
-set(SQLite
+set(SQLite_Lib
 libs/sqlite3.h
 libs/sqlite3.c
 )
@@ -12,9 +15,9 @@ MaliciousDomainDetector/MaliciousDomainDetector.h
 MaliciousDomainDetector/MaliciousDomainDetector.cpp
 )
 
-set(SqlDataFetcher
-SqlDataFetcher/SqlDataFetcher.h
-SqlDataFetcher/SqlDataFetcher.cpp
+set(SQLite
+SQLite/Sqlite.h
+SQLite/Sqlite.cpp
 )
 
 # SQLite 라이브러리 경로 설정
@@ -23,9 +26,9 @@ set(SQLITE3_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/libs")
 
 add_executable(MaliciousDomainDetector 
 
-${SQLite}
+${SQLite_Lib}
 ${MaliciousDomainDetector}
-${SqlDataFetcher}
+${SQLite}
 
 json.hpp
 main.cpp

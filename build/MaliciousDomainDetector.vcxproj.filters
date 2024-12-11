@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\libs\sqlite3.c">
+    <ClCompile Include="C:\Users\Admin\Desktop\workspace\MaliciousDomainDetector\libs\sqlite3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\MaliciousDomainDetector\MaliciousDomainDetector.cpp">
+    <ClCompile Include="C:\Users\Admin\Desktop\workspace\MaliciousDomainDetector\MaliciousDomainDetector\MaliciousDomainDetector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\SqlDataFetcher\SqlDataFetcher.cpp">
+    <ClCompile Include="C:\Users\Admin\Desktop\workspace\MaliciousDomainDetector\SQLite\Sqlite.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\main.cpp">
+    <ClCompile Include="C:\Users\Admin\Desktop\workspace\MaliciousDomainDetector\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\libs\sqlite3.h">
+    <ClInclude Include="C:\Users\Admin\Desktop\workspace\MaliciousDomainDetector\libs\sqlite3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\MaliciousDomainDetector\MaliciousDomainDetector.h">
+    <ClInclude Include="C:\Users\Admin\Desktop\workspace\MaliciousDomainDetector\MaliciousDomainDetector\MaliciousDomainDetector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\SqlDataFetcher\SqlDataFetcher.h">
+    <ClInclude Include="C:\Users\Admin\Desktop\workspace\MaliciousDomainDetector\SQLite\Sqlite.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\json.hpp">
+    <ClInclude Include="C:\Users\Admin\Desktop\workspace\MaliciousDomainDetector\json.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\user\Desktop\workspace\MaliciousDomainDetector\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Admin\Desktop\workspace\MaliciousDomainDetector\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{2BD8B26A-D636-3A0A-BD03-368FA1388679}</UniqueIdentifier>
+      <UniqueIdentifier>{6743AB39-0329-3FEF-9518-A93673C020D1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{D120F177-E68C-3E0B-832E-576604F34C5B}</UniqueIdentifier>
+      <UniqueIdentifier>{DD8EF1A5-3842-3D15-AEC3-2A941FAFF6EB}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
