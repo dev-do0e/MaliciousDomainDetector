@@ -13,4 +13,6 @@ while (true){
 
     4. [domain name + 스크린샷 추출 날짜 + 스크린 샷]으로 DB table SQLite에 저장
 
+    let's rock
+
 }
