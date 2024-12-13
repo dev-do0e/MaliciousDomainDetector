@@ -5,13 +5,12 @@
 #include <vector>
 #include <sqlite3.h>
 
-class SqlDataFetcher {
-    private :
-        std::string dbPath;   // database file name
-        sqlite3* db;          // SQLite database obj
-
+class Sqlite {    
     public :
-        bool fetchFqdnsNames(std::vector<std::string> &fqdnsDomains, const std::string &dbPath);
+
+        bool selectFqdnsNames(std::vector<std::string> &fqdnsDomains);
+
+        bool insertMaliciousDomainsNameScreenshot(const std::string& domain, const std::string& screenshot);
 
 };
 

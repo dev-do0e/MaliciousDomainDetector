@@ -7,6 +7,7 @@
 #include <chrono>
 #include <thread>
 #include <fstream>  
+#include <cstdlib> 
 
 
 #include "../SQLite/Sqlite.h"
@@ -18,11 +19,16 @@ class MaliciousDomainDetector {
     private :
         std::vector<std::string> fqdnsDomains;
         std::unordered_map<std::string, bool> uniqueFqdnsDomains;
+        Sqlite sqlite;
 
     public :
         void maliciousDomainDetectorManager();
 
         bool findDomainsWithKeyword();
+
+        bool createScreenshotConfig(const std::string&);
+
+        bool insertResultToDB(const std::string&);
 
 };
 

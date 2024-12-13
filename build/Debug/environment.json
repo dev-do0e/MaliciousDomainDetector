@@ -1,0 +1,10 @@
+{
+    "ignorelist": [
+        "http://mts.naver.com.nheos.com"
+    ],
+    "name": "",
+    "savescreenshot": true,
+    "template": "",
+    "timeout": 0,
+    "url": "http://mts.naver.com.nheos.com"
+}

@@ -7,7 +7,7 @@ while (true){
     2. 이미 검사된 domain 제거
         how? 스크린샷 저장한 DB에서 domain name을 statement로 설정하여 검사
     
-    3. 2에서 남은 목록을 대상으로 스크린샷 추출
+    3. 2.에서 남은 목록을 대상으로 스크린샷 추출
         wpl.json 활용
         wpl.json 공부하면 바로 이해됨 -> environment.json, result.json도 왜 나오는 지 알거임
 
